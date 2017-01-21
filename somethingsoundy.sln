@@ -1,7 +1,20 @@
+<<<<<<< HEAD
+<<<<<<< master
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "somethingsoundy", "somethingsoundy.csproj", "{44E8B092-9660-DCC3-2761-3E0B1ECDD817}"
+=======
+=======
+>>>>>>> scott
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{6FA16E9D-99A8-BCD9-A90E-C0D1C1D6191C}") = "somethingsoundy", "Assembly-CSharp.csproj", "{8F60128F-2C0E-BFA7-C6FD-B48D386BA8B4}"
+<<<<<<< HEAD
+>>>>>>> added player movement
+=======
+>>>>>>> scott
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +22,37 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
+<<<<<<< master
 		{44E8B092-9660-DCC3-2761-3E0B1ECDD817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{44E8B092-9660-DCC3-2761-3E0B1ECDD817}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44E8B092-9660-DCC3-2761-3E0B1ECDD817}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44E8B092-9660-DCC3-2761-3E0B1ECDD817}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+=======
+>>>>>>> scott
+		{8F60128F-2C0E-BFA7-C6FD-B48D386BA8B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F60128F-2C0E-BFA7-C6FD-B48D386BA8B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F60128F-2C0E-BFA7-C6FD-B48D386BA8B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F60128F-2C0E-BFA7-C6FD-B48D386BA8B4}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+>>>>>>> added player movement
+=======
+>>>>>>> scott
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
+<<<<<<< master
+=======
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+>>>>>>> added player movement
+=======
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+>>>>>>> scott
 EndGlobal
