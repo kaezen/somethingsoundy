@@ -18,7 +18,11 @@ public class BulletCollision : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(transform.position,transform.forward,out hit,distance)){
             Vector3 normal = hit.normal;
-            if(hit.transform.gameObject.layer == 8) TimeToRotate(normal);
+            if (hit.transform.gameObject.layer == 8)
+            {
+                hit.transform.gameObject.GetComponent<WallColoring>().Glow();
+                TimeToRotate(normal);
+            }
         }
 
     }

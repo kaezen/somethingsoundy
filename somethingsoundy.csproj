@@ -75,14 +75,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BulletCollision.cs" />
-    <Compile Include="Assets\BulletMoving.cs" />
     <Compile Include="Assets\scannereffect\ScannerEffectDemo.cs" />
-    <Compile Include="Assets\shooting.cs" />
-    <Compile Include="Assets\spinning.cs" />
+    <Compile Include="Assets\scripts\BulletCollision.cs" />
+    <Compile Include="Assets\scripts\BulletMoving.cs" />
+    <Compile Include="Assets\scripts\SeekerMovement.cs" />
+    <Compile Include="Assets\scripts\WallColoring.cs" />
+    <Compile Include="Assets\scripts\shooting.cs" />
+    <Compile Include="Assets\scripts\spinning.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\NewSurfaceShader.shader" />
     <None Include="Assets\scannereffect\ScannerEffect.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
