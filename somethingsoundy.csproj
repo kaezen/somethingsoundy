@@ -77,8 +77,13 @@
   <ItemGroup>
     <Compile Include="Assets\BulletCollision.cs" />
     <Compile Include="Assets\BulletMoving.cs" />
+    <Compile Include="Assets\scannereffect\ScannerEffectDemo.cs" />
     <Compile Include="Assets\shooting.cs" />
     <Compile Include="Assets\spinning.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\NewSurfaceShader.shader" />
+    <None Include="Assets\scannereffect\ScannerEffect.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
